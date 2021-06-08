@@ -5,11 +5,9 @@ import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bruno.curso.domain.exception.NegocioException;
 import com.bruno.curso.domain.model.Cliente;
 import com.bruno.curso.domain.model.Entrega;
 import com.bruno.curso.domain.model.StatusEntrega;
-import com.bruno.curso.domain.repository.ClienteRepository;
 import com.bruno.curso.domain.repository.EntregaRepository;
 
 import lombok.AllArgsConstructor;
